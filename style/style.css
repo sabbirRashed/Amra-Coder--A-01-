@@ -11,3 +11,63 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+/* nav style */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding: 50px 0px;
+
+}
+
+
+.nav-title{
+    font-size: 34px;
+    font-weight: 900;
+
+}
+
+
+.nav-btn{
+    font-size:16px ;
+    font-weight:700 ;
+    height: 48px;
+    width: 140px;
+
+}
+
+
+/* shared style */
+.btn-common{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+
+}
+
+
+.btn-common:hover{
+    background-color: #a877ce;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+
+.primary-color{
+    color: #4E47FF;
+
+}
