@@ -322,6 +322,7 @@ main {
     align-items: center;
     gap: 115px;
 
+
 }
 
 .lts-title {
@@ -337,7 +338,7 @@ label {
 
 
 .lts-form {
-    margin: 71px 0px;
+    margin-bottom:137px;
 
 }
 
@@ -347,6 +348,7 @@ label {
     border-radius: 10px;
     border: none;
     font-size: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     padding-left: 20px;
 }
@@ -357,6 +359,7 @@ label {
     border-radius: 10px;
     border: none;
     font-size: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     padding-left: 20px;
 }
@@ -367,6 +370,7 @@ label {
     border-radius: 10px;
     border: none;
     font-size: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     padding-left: 20px;
 }
