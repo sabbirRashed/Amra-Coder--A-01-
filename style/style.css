@@ -20,10 +20,12 @@
 
 
 header{
-    background-image: url(/images/hero-bg.png);
+    background-image: url(../images/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    margin-bottom: 116px;
 
 }
 
@@ -81,25 +83,23 @@ header{
 }
 
 
-.secondary-color {
+.secondary-color{
+    color: rgba(37, 36, 50, 0.5)
+
+}
+
+
+.tertiary-color {
     color: #4E47FF;
 
 }
 
 
-.section-title{
-    color: #252432;
-     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    
-}
-
 
 /* banner style */
 .banner {
     text-align: center;
-    padding-top: 158px;
+    padding-top: 152px;
     padding-bottom: 152px;
 
 
@@ -117,5 +117,71 @@ header{
 .banner-btn {
     width: 174px;
     height: 48px;
+
+}
+
+
+/* main section start */
+main{
+    width: 1320px;
+    margin: 0 auto;
+
+}
+
+
+/* action section style */
+.action-container{
+    display: flex;
+    gap: 230px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 116px;
+
+}
+
+
+.action-content{
+text-align: left;
+
+}
+
+
+.action-title{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 23px;
+
+}
+
+
+.action-description{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 23px;
+    padding-right:50px;
+
+}
+
+
+.action-btn{
+    width: 230px;
+    height: 48px;
+
+}
+
+
+.action-image-box{
+    width:403;
+    height: 328px;
+    border-radius: 48px;
+    overflow: hidden;
+    
+
+}
+
+
+.action-image{
+    width: 100%;
+    height:100%;
 
 }
