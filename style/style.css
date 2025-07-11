@@ -19,8 +19,15 @@
 }
 
 
+body{
+     background-color: rgba(78, 71, 255, 0.1);;
+
+
+}
+
+
 header{
-    background-image: url(/images/hero-bg.png);
+    background-image: url(../images/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,6 +132,7 @@ header{
 main{
     width: 1320px;
     margin: 0 auto;
+   
 
 }
 
@@ -205,6 +213,12 @@ text-align: left;
 }
 
 
+.user-list-container{
+    padding-bottom: 50px;
+
+}
+
+
 .data-list{
     display: flex;
     justify-content:space-evenly;
@@ -220,24 +234,77 @@ text-align: left;
     font-size: 80px;
     font-weight: 700;
     line-height: 30px;
+    padding-left: 50px;
 
 }
 
 .data-list li span{
     font-size: 20px;
-    padding-bottom: 50px;
 
 }
 
 
 /* user feed back style */
-.image-form{
-    display: flex;
-    justify-content: ;
-    align-items: center;
+.feed-back-title{
+    font-size: 42px;
+    font-weight: 700px;
+    text-align: center;
+    margin-bottom: 50px;
 
 }
 
+
+.feed-backs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 137px;
+
+}
+
+.feed-back-container{
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+
+}
+
+.user-dtails{
+    margin: 24px 0;
+
+}
+
+
+.container-title{
+    margin-bottom: 8px;
+
+}
+
+
+.image-form{
+    display: flex;
+    justify-content:baseline ;
+    align-items: center;
+    gap: 12px;
+
+}
+
+
+.pic{
+    width: 40px;
+    height:40px ;
+    border-radius: 100%;
+    overflow: hidden;
+
+
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+
+}
 
  .reviewer-info input{
     display: block;
