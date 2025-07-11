@@ -190,6 +190,7 @@ text-align: left;
 /* user productive section */
 .user-section{
     background-color: rgba(78, 71, 255, 0.1);
+    margin-bottom: 137px;
 
 }
 
@@ -225,5 +226,21 @@ text-align: left;
 .data-list li span{
     font-size: 20px;
     padding-bottom: 50px;
+
+}
+
+
+/* user feed back style */
+.image-form{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+
+}
+
+
+ .reviewer-info input{
+    display: block;
+    border: none;
 
 }
